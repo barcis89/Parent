@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import SwiftFramework
+import AFNetworking
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let sf = SwiftFrameworks()
+        sf.doSomething()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

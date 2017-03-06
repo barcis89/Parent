@@ -12,7 +12,99 @@
 		1F736F321E697CBF0007A8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F736F301E697CBF0007A8DA /* Main.storyboard */; };
 		1F736F341E697CBF0007A8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F736F331E697CBF0007A8DA /* Assets.xcassets */; };
 		1F736F371E697CBF0007A8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F736F351E697CBF0007A8DA /* LaunchScreen.storyboard */; };
+		1F73712D1E6D57800007A8DA /* SwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F73712C1E6D57440007A8DA /* SwiftFramework.framework */; };
+		1F73712E1E6D57800007A8DA /* SwiftFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F73712C1E6D57440007A8DA /* SwiftFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F7372AF1E6D58A70007A8DA /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7372A21E6D58880007A8DA /* AFNetworking.framework */; };
+		1F7372B01E6D58A70007A8DA /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7372A21E6D58880007A8DA /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F73712B1E6D57440007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7371271E6D57440007A8DA /* SwiftFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F7371151E6D4D860007A8DA;
+			remoteInfo = SwiftFramework;
+		};
+		1F73712F1E6D57800007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7371271E6D57440007A8DA /* SwiftFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7371141E6D4D860007A8DA;
+			remoteInfo = SwiftFramework;
+		};
+		1F7372A11E6D58880007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522391BBF104D00859F49;
+			remoteInfo = "AFNetworking iOS";
+		};
+		1F7372A31E6D58880007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522651BBF129200859F49;
+			remoteInfo = "AFNetworking watchOS";
+		};
+		1F7372A51E6D58880007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522771BBF136400859F49;
+			remoteInfo = "AFNetworking OS X";
+		};
+		1F7372A71E6D58880007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0A51BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS";
+		};
+		1F7372A91E6D58880007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C3B1BC2C79500FD3B3E;
+			remoteInfo = "AFNetworking iOS Tests";
+		};
+		1F7372AB1E6D58880007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C4A1BC2C7B200FD3B3E;
+			remoteInfo = "AFNetworking Mac OS X Tests";
+		};
+		1F7372AD1E6D58880007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0AE1BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS Tests";
+		};
+		1F7372B11E6D58A70007A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 299522381BBF104D00859F49;
+			remoteInfo = "AFNetworking iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F7371311E6D57800007A8DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F73712E1E6D57800007A8DA /* SwiftFramework.framework in Embed Frameworks */,
+				1F7372B01E6D58A70007A8DA /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F736F291E697CBF0007A8DA /* Parent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +114,8 @@
 		1F736F331E697CBF0007A8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F736F361E697CBF0007A8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F736F381E697CBF0007A8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7371271E6D57440007A8DA /* SwiftFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftFramework.xcodeproj; path = ../SwiftFramework/SwiftFramework.xcodeproj; sourceTree = "<group>"; };
+		1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking.xcodeproj; path = components/AFNetworking/AFNetworking.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F73712D1E6D57800007A8DA /* SwiftFramework.framework in Frameworks */,
+				1F7372AF1E6D58A70007A8DA /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +134,8 @@
 		1F736F201E697CBF0007A8DA = {
 			isa = PBXGroup;
 			children = (
+				1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */,
+				1F7371271E6D57440007A8DA /* SwiftFramework.xcodeproj */,
 				1F736F2B1E697CBF0007A8DA /* Parent */,
 				1F736F2A1E697CBF0007A8DA /* Products */,
 			);
@@ -64,6 +162,28 @@
 			path = Parent;
 			sourceTree = "<group>";
 		};
+		1F7371281E6D57440007A8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F73712C1E6D57440007A8DA /* SwiftFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F7372981E6D58880007A8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F7372A21E6D58880007A8DA /* AFNetworking.framework */,
+				1F7372A41E6D58880007A8DA /* AFNetworking.framework */,
+				1F7372A61E6D58880007A8DA /* AFNetworking.framework */,
+				1F7372A81E6D58880007A8DA /* AFNetworking.framework */,
+				1F7372AA1E6D58880007A8DA /* AFNetworking iOS Tests.xctest */,
+				1F7372AC1E6D58880007A8DA /* AFNetworking Mac OS X Tests.xctest */,
+				1F7372AE1E6D58880007A8DA /* AFNetworking tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,10 +194,13 @@
 				1F736F251E697CBF0007A8DA /* Sources */,
 				1F736F261E697CBF0007A8DA /* Frameworks */,
 				1F736F271E697CBF0007A8DA /* Resources */,
+				1F7371311E6D57800007A8DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1F7371301E6D57800007A8DA /* PBXTargetDependency */,
+				1F7372B21E6D58A70007A8DA /* PBXTargetDependency */,
 			);
 			name = Parent;
 			productName = Parent;
@@ -112,12 +235,81 @@
 			mainGroup = 1F736F201E697CBF0007A8DA;
 			productRefGroup = 1F736F2A1E697CBF0007A8DA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F7372981E6D58880007A8DA /* Products */;
+					ProjectRef = 1F7372971E6D58880007A8DA /* AFNetworking.xcodeproj */;
+				},
+				{
+					ProductGroup = 1F7371281E6D57440007A8DA /* Products */;
+					ProjectRef = 1F7371271E6D57440007A8DA /* SwiftFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1F736F281E697CBF0007A8DA /* Parent */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1F73712C1E6D57440007A8DA /* SwiftFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFramework.framework;
+			remoteRef = 1F73712B1E6D57440007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7372A21E6D58880007A8DA /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 1F7372A11E6D58880007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7372A41E6D58880007A8DA /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 1F7372A31E6D58880007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7372A61E6D58880007A8DA /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 1F7372A51E6D58880007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7372A81E6D58880007A8DA /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 1F7372A71E6D58880007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7372AA1E6D58880007A8DA /* AFNetworking iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking iOS Tests.xctest";
+			remoteRef = 1F7372A91E6D58880007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7372AC1E6D58880007A8DA /* AFNetworking Mac OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking Mac OS X Tests.xctest";
+			remoteRef = 1F7372AB1E6D58880007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7372AE1E6D58880007A8DA /* AFNetworking tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking tvOS Tests.xctest";
+			remoteRef = 1F7372AD1E6D58880007A8DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1F736F271E697CBF0007A8DA /* Resources */ = {
@@ -143,6 +335,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F7371301E6D57800007A8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftFramework;
+			targetProxy = 1F73712F1E6D57800007A8DA /* PBXContainerItemProxy */;
+		};
+		1F7372B21E6D58A70007A8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AFNetworking iOS";
+			targetProxy = 1F7372B11E6D58A70007A8DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1F736F301E697CBF0007A8DA /* Main.storyboard */ = {
@@ -260,6 +465,7 @@
 		1F736F3C1E697CBF0007A8DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6N383MPR9W;
 				INFOPLIST_FILE = Parent/Info.plist;
@@ -273,6 +479,7 @@
 		1F736F3D1E697CBF0007A8DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6N383MPR9W;
 				INFOPLIST_FILE = Parent/Info.plist;
@@ -302,6 +509,7 @@
 				1F736F3D1E697CBF0007A8DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
